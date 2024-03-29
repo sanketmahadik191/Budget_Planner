@@ -34,7 +34,11 @@ function App() {
   return (
     <div className="App">
       <h1>My Budget Planner</h1>
-      f
+      <div className="budget">
+        <span>Budget: Rs {state.budget}</span>
+        <span>Remaining: Rs {state.remainingAmount}</span>
+        <span>Spent so far: Rs {state.spentSoFar}</span>
+      </div>
       <h2>Expenses</h2>
       <div className="expenses">
         <ul>
